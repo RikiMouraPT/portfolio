@@ -47,37 +47,3 @@ nav a.active:hover {
     text-decoration: underline; /* Mantém a sublinhado */
     cursor: default; /* Mostra que não há ação ao passar o rato */
 }
-#aboutme{
-    font-size: 2.5rem;
-    margin: 2rem 0;
-    text-align: center;
-}
-p{
-    font-size: 1.5rem;
-    margin: 2rem 0;
-    max-width: 60rem;
-    line-height: 1.5;
-    text-align: justify;
-    margin: 0 auto;
-}
-#softskills{
-    font-size: 2.5rem;
-    margin: 2rem 0;
-    text-align: center;
-}
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 2rem 0;
-}
-li{
-    font-size: 1.5rem;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: 023047;
-    border-radius: 1rem;
-    cursor: default;
-}
