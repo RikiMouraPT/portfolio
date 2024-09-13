@@ -4,6 +4,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="/styles/aboutme.css">
+
+    <style>
+        #aboutme-title
+        {
+            text-align: center;
+            font-size: 2.5em;
+            margin-top: 1em;
+        }
+        .aboutme-content
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 1em;
+            margin: 1em;
+            justify-content: space-evenly;
+            justify-items: center;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -20,18 +39,14 @@
         
     </header>
 
-    <h1 id="aboutme">About Me</h1>
-    <p>
-        I am a passionate and motivated individual with a keen interest in technology and problem-solving. 
-        I am currently pursuing a degree in Informatics Engineering and I am eager to learn and grow in the field. 
-        I have experience working as a Wind Turbine Technician, where I developed valuable skills in teamwork, 
-        leadership, and problem-solving. I am excited to continue expanding my knowledge and skills in the tech industry.
-
-    <h2 id="softskills">Soft Skills</h2>
-    <ul>
-        <li>Problem-Solving</li>
-        <li>Teamwork</li>
-        <li>Leadership</li>
-    </ul>
+    <h1 id="aboutme-title">About Me</h1>
+    <div class="aboutme-content">
+        <div class="name"><span class="name-span">Name:</span> Ricardo Moura</div>
+        <div class="dob"><span class="dob-span">DoB:</span> 27/02/2001</div>
+        <div class="email"><span class="email-span">Email:</span> <a href="mailto:ricardodsm27@gmail.com">ricardodsm27@gmail.com</a></div>
+        <div class="phone"><span class="phone-span">Phone:</span> +351 933 070 487</div>
+        <div class="nationality"><span class="nationality-span">Nationality:</span> Portuguese</div>
+        <div class="location"><span class="location-span">Location:</span> V.N.Gaia, Portugal</div>
+    </div>
 </body>
 </html>
