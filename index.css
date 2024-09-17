@@ -52,7 +52,9 @@ nav a.active:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
 }
 .content{
     margin-right: 10rem;
@@ -85,8 +87,8 @@ nav a.active:hover {
     justify-content: center;
     width: 23%;
     border-radius: 45%;
-    object-fit: cover;
     margin-left: 12rem;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
 }
 .social-icons{
     display: flex;
