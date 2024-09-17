@@ -69,11 +69,12 @@ nav a.active:hover {
 }
 .title{
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 700;
     color: white;
     margin-bottom: 15px;
 }
 .info{
     font-size: 18px;
+    font-weight: 500;
     color: white;
 }

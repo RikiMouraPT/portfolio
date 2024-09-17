@@ -63,23 +63,7 @@ nav a.active:hover {
     color: white;
     margin-bottom: 10px;
 }
-.project1{
-    background-color: #033e5c;
-    border-radius: 35px;
-    padding: 1.5rem;
-    margin-bottom: 15px;
-    margin: 25px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-}
-.project2{
-    background-color: #033e5c;
-    border-radius: 35px;
-    padding: 1.5rem;
-    margin-bottom: 15px;
-    margin: 25px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-}
-.project3{
+.project{
     background-color: #033e5c;
     border-radius: 35px;
     padding: 1.5rem;

@@ -67,12 +67,12 @@ nav a.active:hover {
     font-size: 20px;
 }
 .title{
-    display: inline;
     font-size: 22px;
     font-weight: 700;
+    color: white;
 }
 .info{
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 700;
     text-align: center;
 }

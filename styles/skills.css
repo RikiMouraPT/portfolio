@@ -51,11 +51,6 @@ nav a.active:hover {
 .skills{
     margin: 50px;
 }
-.title{
-    font-size: 2rem;
-    font-weight: 800;;
-    margin-bottom: 1rem;
-}
 .section{
     background-color: #033e5c;
     border-radius: 35px;
@@ -64,8 +59,13 @@ nav a.active:hover {
     margin: 25px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
+.title{
+    font-size: 28px;
+    font-weight: 700;;
+    margin-bottom: 10px;
+}
 .text{
-    font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
