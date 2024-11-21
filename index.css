@@ -9,7 +9,7 @@
     overflow: hidden;
 }
 body{
-    background-color: 023047;
+    background-color: #023047;
     color: white;
 }
 header{
@@ -24,26 +24,26 @@ header{
 .logo{
     font-size: 2rem;
     font-weight: 800;
-    color: fb8500;
+    color: #fb8500;
     cursor: default;
     letter-spacing: 0.4rem;
 }
 nav a{
     font-size: 1rem;
     font-weight: 600;
-    color: ffb703;
+    color: #ffb703;
     margin: 0 2rem
 }
 nav a:hover{
-    color: fb8500;
+    color: #fb8500;
 }
 .active{
-    color: fb8500;
+    color: #fb8500;
     text-decoration: underline;
     text-underline-offset: 0.2rem;
 }
 nav a.active:hover {
-    color: fb8500; /* Mantém a mesma cor que o estado ativo */
+    color: #fb8500; /* Mantém a mesma cor que o estado ativo */
     text-decoration: underline; /* Mantém a sublinhado */
     cursor: default; /* Mostra que não há ação ao passar o rato */
 }
