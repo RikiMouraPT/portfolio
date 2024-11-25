@@ -1,0 +1,13 @@
+@import "../source/scss/functions";
+@import "../source/scss/variables";
+
+$custom-theme-colors: (
+	"customdarkblue": #023047,
+	"customblue": #033e5c,
+    "customorange": #fb8500,
+    "customyellow": #ffb703
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import "../source/scss/bootstrap/scss/bootstrap";
