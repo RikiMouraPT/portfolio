@@ -3,41 +3,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skills</title>
-    <link rel="stylesheet" href="../styles/skills.css">
+    <link rel="stylesheet" href="/css/index.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
-<body>
+
+<body class="bg-customdarkblue">
     <header>
-        
-        <h1 class="logo">Ricardo</h1>
-        <nav>
-                <a href="../index.html">Home</a>
-                <a href="projects.html">Projects</a>
-                <a href="experience.html">Experience</a>
-                <a class="active" href="skills.html">Skills</a>
-                <a href="education.html">Education</a>
-                <a href="aboutme.html">About Me</a>
+        <nav class="nav nav-underline align-items-center me-5 gap-5">
+            <span class="navbar-brand me-auto ms-4 fs-1 fw-bold text-customorange" style="letter-spacing: 0.4rem; text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);">Ricardo</span>
+            <a class="nav-link fw-bold text-customyellow" href="../index.html">Home</a>
+            <a class="nav-link fw-bold text-customyellow" href="projects.html">Projects</a>
+            <a class="nav-link fw-bold text-customyellow" href="experience.html">Experience</a>
+            <a class="nav-link fw-bold text-customorange active" href="skills.html">Skills</a>
+            <a class="nav-link fw-bold text-customyellow" href="education.html">Education</a>
+            <a class="nav-link fw-bold text-customyellow" href="aboutme.html">About Me</a>
         </nav>
-        
     </header>
 
-    <div class="skills">
-        <div class="section">
-            <p class="title">Programming Languages</p>
-            <ul class="info">
-                <li class="text">&#x2022; Python - Novice</li>
-                <li class="text">&#x2022; C# - Novice</li>
-                <li class="text">&#x2022; HTML/CSS - Learning</li>
-            </ul>
-        </div>
-        <div class="section">
-            <p class="title">Tools</p>
-            <ul class="info">
-                <li class="text">&#x2022; GitHub - Novice</li>
-                <li class="text">&#x2022; Visual Studio - Novice</li>
-                <li class="text">&#x2022; VS Code - Novice</li>
-            </ul>
-        </div>
-    </div>
+    <div class="container mt-5">
 
+        <div class="card bg-customblue shadow text-white mb-5 p-2" style="border-radius: 35px;"> 
+            <div class="card-body">
+                <h5 class="card-title text-customorange fs-3">Programming Languages</h5>
+                <h6 class="card-subtitle lead my-1"></h6>
+                <p class="card-text fs-5" style="text-align: justify;">
+                    &#x2022; Python - Novice
+                    <br>
+                    &#x2022; C# - Novice
+                    <br>
+                    &#x2022; HTML/CSS/Bootstrap - Novice
+                </p>
+            </div>
+        </div>
+
+        <div class="card bg-customblue shadow text-white mb-5 p-2" style="border-radius: 35px;"> 
+            <div class="card-body">
+                <h5 class="card-title text-customorange fs-3">Tools</h5>
+                <h6 class="card-subtitle lead my-1"></h6>
+                <p class="card-text fs-5" style="text-align: justify;">
+                    &#x2022; GitHub - Novice
+                    <br>
+                    &#x2022; Visual Studio - Novice
+                    <br>
+                    &#x2022; VS Code - Novice
+                    <br>
+                    &#x2022; Docker/DockerCompose - Novice
+                    <br>
+                    &#x2022; VirtualBox - Novice
+                    <br>
+                    &#x2022; Linux - Novice
+                </p>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>

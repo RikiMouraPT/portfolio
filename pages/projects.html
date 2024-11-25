@@ -3,36 +3,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
-    <link rel="stylesheet" href="../styles/projects.css">
+    <link rel="stylesheet" href="/css/index.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
-<body>
+
+<body class="bg-customdarkblue">
     <header>
-        
-        <h1 class="logo">Ricardo</h1>
-        <nav>
-                <a href="../">Home</a>
-                <a class="active" href="projects.html">Projects</a>
-                <a href="experience.html">Experience</a>
-                <a href="skills.html">Skills</a>
-                <a href="education.html">Education</a>
-                <a href="aboutme.html">About Me</a>
+        <nav class="nav nav-underline align-items-center me-5 gap-5">
+            <span class="navbar-brand me-auto ms-4 fs-1 fw-bold text-customorange" style="letter-spacing: 0.4rem; text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);">Ricardo</span>
+            <a class="nav-link fw-bold text-customyellow" href="../index.html">Home</a>
+            <a class="nav-link fw-bold text-customorange active" href="projects.html">Projects</a>
+            <a class="nav-link fw-bold text-customyellow" href="experience.html">Experience</a>
+            <a class="nav-link fw-bold text-customyellow" href="skills.html">Skills</a>
+            <a class="nav-link fw-bold text-customyellow" href="education.html">Education</a>
+            <a class="nav-link fw-bold text-customyellow" href="aboutme.html">About Me</a>
         </nav>
-        
     </header>
 
-        <div class="projects">
-            <div class="project">
-                <p class="title">Portfolio Website</p>
-                <p class="description">
+    <div class="container mt-5">
+        
+        <div class="card bg-customblue shadow text-white mb-5 p-2" style="border-radius: 35px;"> 
+            <div class="card-body">
+                <h5 class="card-title text-customorange fs-3">Portfolio Website<a target="_blank" href="https://github.com/RikiMouraPT/portfolio"><i class="bi bi-github text-white mx-3"></i></a></h5>
+                <p class="card-text fs-5">
                     - Developed a personal portfolio website to showcase my skills and experience.
                     <br>
-                    - Built using HTML, CSS.
+                    - Built using HTML, CSS and later updated to Bootstrap
                 </p>
             </div>
+        </div>
 
-            <div class="project">
-                <p class="title">Homelab Project</p>
-                <p class="description">
+        <div class="card bg-customblue shadow text-white mb-5 p-2" style="border-radius: 35px;">
+            <div class="card-body">
+                <h5 class="card-title text-customorange fs-3">Homelab Project<a target="_blank" href="https://github.com/RikiMouraPT/Projects-ITGraduation/tree/main/Homelab"><i class="bi bi-github text-white mx-3"></i></a></h5>
+                <p class="card-text fs-5">
                     - Set up a homelab environment to experiment with different technologies and configurations.
                     <br>
                     - Utilized virtualization software.
@@ -41,30 +45,49 @@
                     <br>
                     - Documented the process.
                     <br>
-                    - Technologies used: Linux, VirtualBox, Docker, NGINX, BIND9, Game Server, Servarr.
+                    - Technologies used: Linux, VirtualBox, Docker and Docker, NGINX, BIND9, Game Server, Servarr.
                 </p>
             </div>
-            
-            <div class="project">
-                <p class="title">WinForms App</p>
-                <p class="description">
-                    - Developed a C# WinForms application to manage sales, stock, and staff.
+        </div>
+
+        <div class="card bg-customblue shadow text-white mb-5 p-2" style="border-radius: 35px;">
+            <div class="card-body">
+                <h5 class="card-title text-customorange fs-3">WinForms App<a target="_blank" href="https://github.com/RikiMouraPT/Projects-ITGraduation/tree/main/ISLA/Year%201/Algorithms%20and%20Data%20Structures/WindowsForms/009%20-%20Projeto%20Final"><i class="bi bi-github text-white mx-3"></i></a></h5>
+                <p class="card-text fs-5">
+                    - Developed a application to manage sales, stock, and staff.
                     <br>
-                    - Implemented real-time stock updates, task assignments, and sales tracking.
+                    - Implemented stock updates, and sales tracking.
                     <br>
                     - Integrated data visualization with charts for key metrics.
+                    <br>
+                    - Built using C# and SQL.
                 </p>
             </div>
+        </div>
 
-            <div class="project">
-                <p class="title">Weather App</p>
-                <p class="description">
+        <div class="card bg-customblue shadow text-white mb-5 p-2" style="border-radius: 35px;">
+            <div class="card-body">
+                <h5 class="card-title text-customorange fs-3">Movie Oscars<a target="_blank" href="https://github.com/RikiMouraPT/Projects-ITGraduation/tree/main/ISLA/Year%201/Programming%20Fundamentals/Projeto%20Final"><i class="bi bi-github text-white mx-3"></i></a></h5>
+                <p class="card-text fs-5">
+                    - Developed a movie database application to track and rate movies.
+                    <br>
+                    - Implemented features for adding, updating, and deleting movie entries.
+                    <br>
+                    - Integrated search functionality to find movies by title.
+                    <br>
+                    - Built using Python and IMBD API to get movie information.
+                </p>
+            </div>
+        </div>
+
+        <div class="card bg-customblue shadow text-white mb-5 p-2" style="border-radius: 35px;">
+            <div class="card-body">
+                <h5 class="card-title text-customorange fs-3">Weather App<a target="_blank" href="https://github.com/RikiMouraPT/Projects-ITGraduation/tree/main/Random%20Projects%20Python/WeatherAPI"><i class="bi bi-github text-white mx-3"></i></a></h5>
+                <p class="card-text fs-5">
                     - Developed a weather app that displays the current weather and forecast for a given location.
                     <br>
                     - Built using Python and OpenWeatherMap API.
                 </p>
             </div>
-
-            
         </div>
 </html>

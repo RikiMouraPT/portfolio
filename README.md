@@ -1,6 +1,6 @@
 # My Portfolio ----- WIP
 
-Welcome to my portfolio repository! This project showcases my journey of learning HTML and CSS by creating a personal website that doubles as my online resume.
+Welcome to my portfolio repository! This project showcases my journey of learning HTML, CSS and Bootstrap by creating a personal website that doubles as my online resume.
 
 ## Table of Contents
 
@@ -17,22 +17,15 @@ Welcome to my portfolio repository! This project showcases my journey of learnin
 
 This project is designed to:
 
-- Demonstrate my skills in HTML and CSS.
+- Demonstrate my skills in HTML, CSS and bootstrap.
 - Serve as an interactive and visually appealing online resume.
 - Display my professional experience, projects, and technical abilities.
-
-## Features
-
-- **Online Resume:** Detailed section featuring my work experience, educational background, and technical skills.
-- **Project Portfolio:** Gallery of key projects.
-- **Responsive Design:** The website is fully responsive, ensuring a seamless user experience on mobile, tablet, and desktop devices.
-- **Animations and Effects:** Implementation of CSS animations to enhance interactivity and visual appeal.
-- **Clean and Well-Documented Code:** All code is written following best practices, with explanatory comments where necessary.
 
 ## Technologies Used
 
 - **HTML5**
 - **CSS3**
+- **Bootstrap**
 
 ## Getting Started
 
